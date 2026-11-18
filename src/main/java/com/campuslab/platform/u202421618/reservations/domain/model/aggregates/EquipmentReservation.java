@@ -3,7 +3,9 @@ package com.campuslab.platform.u202421618.reservations.domain.model.aggregates;
 import com.campuslab.platform.u202421618.reservations.domain.model.valueobjects.*;
 import java.time.Instant;
 
-
+/** Domain aggregate root for an equipment reservation.
+ * @author Jose Alejandro Tello Lima
+ */
 public class EquipmentReservation {
     private final Long id;
     private final ReservationCode reservationCode;
